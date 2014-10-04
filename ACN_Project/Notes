@@ -1,14 +1,14 @@
-•	Running Apache Server on UTD’s UNIX server
-•	Installing JDK on UTD Server
+•	Running Apache Server on XXX’s UNIX server
+•	Installing JDK on XXX Server
 •	Accessing Pi from PC through SSH
 -	Connect Pi to PC through Ethernet cable
 -	Tracing the IP Address assigned to the Pi:
 Network and Sharing Centre  LAN Connection  Properties  Select IPv4  click on Properties  Use the following IP Address
-The IP Address assigned for PC is 192.168.137.1 and subnet mask is 255.255.255.0
+The IP Address assigned for PC is XXX.XXX.XXX.1 and subnet mask is 255.255.255.0
 •	Below bash script has been run for tracing the IP Address of the Pi
-FOR /L %i IN (150,1,200) DO ping -a -n 1 192.168.10.%i >>c:\ipaddresses-150.txt
+FOR /L %i IN (150,1,200) DO ping -a -n 1 XXX.XXX.XX.%i >>c:\ipaddresses-150.txt
 •	IP address and hostname of Pi obtained after running the above script are:
-IP Address: 192.168.137.96
+IP Address: XXX.XXX.XXX.96
 Hostname: raspberrypi.mshome.net
 •	Connected to Pi through SSH
 •	Making the IP address that is currently assigned to Pi as static by editing the interface file
@@ -24,5 +24,5 @@ http://www.raspberrypi.org/phpBB3/viewtopic.php?f=30&t=44700
 http://www.raspberrypi.org/forum/viewtopic.php?f=34&t=14940
 •	Installing Apache web server and PHP on Pi
 •	http://www.wikihow.com/Make-a-Raspberry-Pi-Web-Server
-•	Establishing socket connection between Pi and UTD Server
-•	Establishing socket connection between Android and UTD Server
+•	Establishing socket connection between Pi and XXX Server
+•	Establishing socket connection between Android and XXX Server
