@@ -1,6 +1,8 @@
 ACN_Project
 ===========
 
+Remote locks for homes/hotels operable by a smartphone
+
 High level project description:
 i)	Build an android application for users to open/close remote lock.
 ii)	A screen for owner of the house to open/close the lock with an open button and close button when he wants to allow some person into his house.
